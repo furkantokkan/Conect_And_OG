@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 3192825649316108275}
   - component: {fileID: 5537739721071166643}
   - component: {fileID: 8110531278756803927}
+  - component: {fileID: 5741570005461579710}
   m_Layer: 0
-  m_Name: Collectable
-  m_TagString: wifiStick
+  m_Name: Obstacle
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f942dce9e93dfc54bad1e3e30dbfab1e, type: 2}
+  - {fileID: 2100000, guid: 64bc53fbfece86446853b10b49f50370, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -95,3 +96,15 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5741570005461579710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5963519414895399941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f13f65c3076d4314b8c397a3da5cb8e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
