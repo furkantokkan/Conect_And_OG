@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     private bool gameIsRunning;
     private int score;
     public int GetScore { get { return score; } set { score = value; } }
-    public bool GetGameIsRunning { get { return gameIsRunning} set { gameIsRunning = value; } }
+    public bool GetGameIsRunning { get { return gameIsRunning; } set { gameIsRunning = value; } }
 
     private void Awake()
     {
